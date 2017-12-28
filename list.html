@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>高仿列表页</title>
+	<link rel="icon" href="static/images/favicon.ico">
+	<link rel="stylesheet" href="static/css/web.css">
+	<link rel="stylesheet" href="static/css/reset.css">
+	<!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	
+	<!-- 顶部导航部分开始 -->
+	<div class="car-head">
+		<div class="top-menu">
+			<div class="wrap clearfix">
+				<div class="le-menu fl">
+					<ul class="clearfix">
+						<li><a href="#" class="tit">华为官网</a></li>
+						<li><a href="#" class="tit">荣耀官网</a></li>
+						<li><a href="#" class="tit">花粉俱乐部</a></li>
+						<li><a href="#" class="tit">帮助中心</a></li>
+						<li><a href="#" class="tit">V码(优惠码)</a></li>
+						<li><a href="#" class="tit">Select Region</a></li>
+						<li class="more-a">
+							<a href="#" class="tit">更多精彩<i></i></a>
+							<div class="menu-more">
+								<dl>
+									<dd><a href="#">EMUI</a></dd>
+									<dd><a href="#">应用市场</a></dd>
+									<dd><a href="#">云服务</a></dd>
+									<dd><a href="#">开发者联盟</a></dd>
+								</dl>
+								<div class="codebox">
+									<a href="#"><img src="static/images/code1.png" alt=""></a>
+									<p>扫一扫，<a href="#">下载客户端</a></p>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="riInfo fr">
+					<ul class="clearfix">
+						<li>
+							<div class="loginIn">
+								<a href="#" class="tit">请登录</a>
+								<a href="register.html" class="tit">注册</a>
+							</div>
+						</li>
+						<li><a href="#" class="tit">我的订单</a></li>
+						<li class="cart-box">
+							<a href="#" class="tit">购物车(<span>0</span>)</a>
+							<div class="cartBox">
+								<div class="cartNo"><!-- 购物车没东西 -->
+									<img src="static/images/cartIcon.png" alt="">
+									<p>您的购物车是空的，赶紧选购吧~</p>
+								</div>
+								<div class="cartYes"><!-- 购物车有东西 -->
+									
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="head-logo">
+			<div class="wrap clearfix">
+				<div class="logo fl">
+					<a href="index.html"><img src="static/images/logo.png" alt=""></a>
+				</div>
+				<div class="head-nav fl">
+					<ul class="clearfix">
+						<li><a href="#">华为专区</a></li>
+						<li><a href="#">荣耀专区</a></li>
+						<li><a href="#">HUAWEI P10</a></li>
+						<li><a href="#">荣耀9</a></li>
+						<li><a href="#">华为数码惠</a></li>
+						<li><a href="#">荣耀潮品惠</a></li>
+					</ul>
+				</div>
+				<div class="search-box fr">
+					<form action="" method="" class="clearfix">
+						<input class="text" type="text" maxlength="100">
+						<input class="sub" type="submit" value="">
+					</form>
+					<div class="hot-search">
+						<a href="#">HUAWEI nova 2</a>
+						<a href="#">荣耀8青春版</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 顶部导航部分结束 -->
+
+	<!-- 面包屑开始 -->
+	<div class="crumbs">
+		<div class="wrap">
+			<div class="crumbsCont">
+				<a href="#">首页</a>
+				&nbsp;>&nbsp;
+				<span>手机</span>
+			</div>
+		</div>
+	</div>
+	<!-- 面包屑结束 -->
+
+	<!-- 筛选开始 -->
+	<div class="lookup">
+		<div class="wrap">
+			<div class="lookupCont">
+				<ul>
+					<li class="clearfix">
+						<span class="tit">分类：</span>
+						<dl class="clearfix">
+							<dt><a href="#">全部</a></dt>
+							<dd><a href="#">荣耀</a></dd>
+							<dd><a href="#">HUAWEI P系列</a></dd>
+							<dd><a href="#">荣耀畅玩系列</a></dd>
+							<dd><a href="#">HUAWEI Mate系列</a></dd>
+							<dd><a href="#">HUAWEI nova系列</a></dd>
+							<dd><a href="#">华为 G系列</a></dd>
+							<dd><a href="#">华为畅享系列</a></dd>
+							<dd><a href="#">合约机</a></dd>
+						</dl>
+					</li>
+					<li class="clearfix">
+						<span class="tit">排序：</span>
+						<dl class="ddIcon clearfix">
+							<dt><a href="#">默认</a></dt>
+							<dd><a href="#"><span>价格</span><i class="icon priceP"></i></a></dd>
+							<dd><a href="#"><span>评价数</span><i class="icon pingJ"></i></a></dd>
+							<dd><a href="#"><span>上架时间</span><i class="icon timeP"></i></a></dd>
+						</dl>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- 筛选结束 -->
+
+	<!-- 产品列表开始 -->
+	<div class="proMenu">
+		<div class="wrap">
+			<div class="proMenuCont">
+				<ul class="clearfix">
+					<li>
+						<p class="p-img"><a href="#">
+							<img src="static/images/proL1.jpg" alt="">
+						</a></p>
+						<p class="p-name">
+							<a href="#">荣耀畅玩6 全网通版（白色）</a>
+							<span class="red"></span>
+						</p>
+						<p class="p-price">
+							<b>￥599</b>
+						</p>
+						<div class="p-footer">
+							<dl class="clearfix">
+								<dd><a href="#" class="red">到货通知</a></dd>
+								<dd>695人评价</dd>
+							</dl>
+						</div>
+						<p class="infoI"><img src="static/images/infoShou.png" alt=""></p>
+					</li>
+					<li>
+						<p class="p-img"><a href="#">
+							<img src="static/images/proL2.jpg" alt="">
+						</a></p>
+						<p class="p-name">
+							<a href="#">荣耀V9 play 全网通标配版（铂光金）</a>
+							<span class="red">双镜头 长续航  5.7英寸屏</span>
+						</p>
+						<p class="p-price">
+							<b>￥599</b>
+						</p>
+						<div class="p-footer">
+							<dl class="clearfix">
+								<dd><a href="#" class="red">到货通知</a></dd>
+								<dd>695人评价</dd>
+							</dl>
+						</div>
+						<p class="infoI"><img src="static/images/infoHot.png" alt=""></p>
+					</li>
+					<li>
+						<p class="p-img"><a href="#">
+							<img src="static/images/proL1.jpg" alt="">
+						</a></p>
+						<p class="p-name">
+							<a href="#">荣耀畅玩6 全网通版（白色）</a>
+							<span class="red"></span>
+						</p>
+						<p class="p-price">
+							<b>￥599</b>
+						</p>
+						<div class="p-footer">
+							<dl class="clearfix">
+								<dd><a href="#" class="red">到货通知</a></dd>
+								<dd>695人评价</dd>
+							</dl>
+						</div>
+						<p class="infoI"><img src="static/images/infoNew.png" alt=""></p>
+					</li>
+					<li>
+						<p class="p-img"><a href="#">
+							<img src="static/images/proL2.jpg" alt="">
+						</a></p>
+						<p class="p-name">
+							<a href="#">荣耀V9 play 全网通标配版（铂光金）</a>
+							<span class="red">双镜头 长续航  5.7英寸屏</span>
+						</p>
+						<p class="p-price">
+							<b>￥599</b>
+						</p>
+						<div class="p-footer">
+							<dl class="clearfix">
+								<dd><a href="#" class="red">到货通知</a></dd>
+								<dd>695人评价</dd>
+							</dl>
+						</div>
+						<!-- <p class="infoI"><img src="static/images/" alt=""></p> -->
+					</li>
+					<li>
+						<p class="p-img"><a href="#">
+							<img src="static/images/proL1.jpg" alt="">
+						</a></p>
+						<p class="p-name">
+							<a href="#">荣耀畅玩6 全网通版（白色）</a>
+							<span class="red"></span>
+						</p>
+						<p class="p-price">
+							<b>￥599</b>
+						</p>
+						<div class="p-footer">
+							<dl class="clearfix">
+								<dd><a href="#" class="red">到货通知</a></dd>
+								<dd>695人评价</dd>
+							</dl>
+						</div>
+					</li>
+					<li>
+						<p class="p-img"><a href="#">
+							<img src="static/images/proL2.jpg" alt="">
+						</a></p>
+						<p class="p-name">
+							<a href="#">荣耀V9 play 全网通标配版（铂光金）</a>
+							<span class="red">双镜头 长续航  5.7英寸屏</span>
+						</p>
+						<p class="p-price">
+							<b>￥599</b>
+						</p>
+						<div class="p-footer">
+							<dl class="clearfix">
+								<dd><a href="#" class="red">到货通知</a></dd>
+								<dd>695人评价</dd>
+							</dl>
+						</div>
+					</li>
+					<li>
+						<p class="p-img"><a href="#">
+							<img src="static/images/proL1.jpg" alt="">
+						</a></p>
+						<p class="p-name">
+							<a href="#">荣耀畅玩6 全网通版（白色）</a>
+							<span class="red"></span>
+						</p>
+						<p class="p-price">
+							<b>￥599</b>
+						</p>
+						<div class="p-footer">
+							<dl class="clearfix">
+								<dd><a href="#" class="red">到货通知</a></dd>
+								<dd>695人评价</dd>
+							</dl>
+						</div>
+					</li>
+					<li>
+						<p class="p-img"><a href="#">
+							<img src="static/images/proL2.jpg" alt="">
+						</a></p>
+						<p class="p-name">
+							<a href="#">荣耀V9 play 全网通标配版（铂光金）</a>
+							<span class="red">双镜头 长续航  5.7英寸屏</span>
+						</p>
+						<p class="p-price">
+							<b>￥599</b>
+						</p>
+						<div class="p-footer">
+							<dl class="clearfix">
+								<dd><a href="#" class="red">到货通知</a></dd>
+								<dd>695人评价</dd>
+							</dl>
+						</div>
+					</li>
+					<li>
+						<p class="p-img"><a href="#">
+							<img src="static/images/proL1.jpg" alt="">
+						</a></p>
+						<p class="p-name">
+							<a href="#">荣耀畅玩6 全网通版（白色）</a>
+							<span class="red"></span>
+						</p>
+						<p class="p-price">
+							<b>￥599</b>
+						</p>
+						<div class="p-footer">
+							<dl class="clearfix">
+								<dd><a href="#" class="red">到货通知</a></dd>
+								<dd>695人评价</dd>
+							</dl>
+						</div>
+					</li>
+					<li>
+						<p class="p-img"><a href="#">
+							<img src="static/images/proL2.jpg" alt="">
+						</a></p>
+						<p class="p-name">
+							<a href="#">荣耀V9 play 全网通标配版（铂光金）</a>
+							<span class="red">双镜头 长续航  5.7英寸屏</span>
+						</p>
+						<p class="p-price">
+							<b>￥599</b>
+						</p>
+						<div class="p-footer">
+							<dl class="clearfix">
+								<dd><a href="#" class="red">到货通知</a></dd>
+								<dd>695人评价</dd>
+							</dl>
+						</div>
+					</li>
+					<li>
+						<p class="p-img"><a href="#">
+							<img src="static/images/proL1.jpg" alt="">
+						</a></p>
+						<p class="p-name">
+							<a href="#">荣耀畅玩6 全网通版（白色）</a>
+							<span class="red"></span>
+						</p>
+						<p class="p-price">
+							<b>￥599</b>
+						</p>
+						<div class="p-footer">
+							<dl class="clearfix">
+								<dd><a href="#" class="red">到货通知</a></dd>
+								<dd>695人评价</dd>
+							</dl>
+						</div>
+					</li>
+					<li>
+						<p class="p-img"><a href="#">
+							<img src="static/images/proL2.jpg" alt="">
+						</a></p>
+						<p class="p-name">
+							<a href="#">荣耀V9 play 全网通标配版（铂光金）</a>
+							<span class="red">双镜头 长续航  5.7英寸屏</span>
+						</p>
+						<p class="p-price">
+							<b>￥599</b>
+						</p>
+						<div class="p-footer">
+							<dl class="clearfix">
+								<dd><a href="#" class="red">到货通知</a></dd>
+								<dd>695人评价</dd>
+							</dl>
+						</div>
+					</li>
+					<li>
+						<p class="p-img"><a href="#">
+							<img src="static/images/proL1.jpg" alt="">
+						</a></p>
+						<p class="p-name">
+							<a href="#">荣耀畅玩6 全网通版（白色）</a>
+							<span class="red"></span>
+						</p>
+						<p class="p-price">
+							<b>￥599</b>
+						</p>
+						<div class="p-footer">
+							<dl class="clearfix">
+								<dd><a href="#" class="red">到货通知</a></dd>
+								<dd>695人评价</dd>
+							</dl>
+						</div>
+					</li>
+					<li>
+						<p class="p-img"><a href="#">
+							<img src="static/images/proL2.jpg" alt="">
+						</a></p>
+						<p class="p-name">
+							<a href="#">荣耀V9 play 全网通标配版（铂光金）</a>
+							<span class="red">双镜头 长续航  5.7英寸屏</span>
+						</p>
+						<p class="p-price">
+							<b>￥599</b>
+						</p>
+						<div class="p-footer">
+							<dl class="clearfix">
+								<dd><a href="#" class="red">到货通知</a></dd>
+								<dd>695人评价</dd>
+							</dl>
+						</div>
+					</li>
+					<li>
+						<p class="p-img"><a href="#">
+							<img src="static/images/proL1.jpg" alt="">
+						</a></p>
+						<p class="p-name">
+							<a href="#">荣耀畅玩6 全网通版（白色）</a>
+							<span class="red"></span>
+						</p>
+						<p class="p-price">
+							<b>￥599</b>
+						</p>
+						<div class="p-footer">
+							<dl class="clearfix">
+								<dd><a href="#" class="red">到货通知</a></dd>
+								<dd>695人评价</dd>
+							</dl>
+						</div>
+					</li>
+					<li>
+						<p class="p-img"><a href="#">
+							<img src="static/images/proL2.jpg" alt="">
+						</a></p>
+						<p class="p-name">
+							<a href="#">荣耀V9 play 全网通标配版（铂光金）</a>
+							<span class="red">双镜头 长续航  5.7英寸屏</span>
+						</p>
+						<p class="p-price">
+							<b>￥599</b>
+						</p>
+						<div class="p-footer">
+							<dl class="clearfix">
+								<dd><a href="#" class="red">到货通知</a></dd>
+								<dd>695人评价</dd>
+							</dl>
+						</div>
+					</li>
+					<li>
+						<p class="p-img"><a href="#">
+							<img src="static/images/proL1.jpg" alt="">
+						</a></p>
+						<p class="p-name">
+							<a href="#">荣耀畅玩6 全网通版（白色）</a>
+							<span class="red"></span>
+						</p>
+						<p class="p-price">
+							<b>￥599</b>
+						</p>
+						<div class="p-footer">
+							<dl class="clearfix">
+								<dd><a href="#" class="red">到货通知</a></dd>
+								<dd>695人评价</dd>
+							</dl>
+						</div>
+					</li>
+					<li>
+						<p class="p-img"><a href="#">
+							<img src="static/images/proL2.jpg" alt="">
+						</a></p>
+						<p class="p-name">
+							<a href="#">荣耀V9 play 全网通标配版（铂光金）</a>
+							<span class="red">双镜头 长续航  5.7英寸屏</span>
+						</p>
+						<p class="p-price">
+							<b>￥599</b>
+						</p>
+						<div class="p-footer">
+							<dl class="clearfix">
+								<dd><a href="#" class="red">到货通知</a></dd>
+								<dd>695人评价</dd>
+							</dl>
+						</div>
+					</li>
+					<li>
+						<p class="p-img"><a href="#">
+							<img src="static/images/proL1.jpg" alt="">
+						</a></p>
+						<p class="p-name">
+							<a href="#">荣耀畅玩6 全网通版（白色）</a>
+							<span class="red"></span>
+						</p>
+						<p class="p-price">
+							<b>￥599</b>
+						</p>
+						<div class="p-footer">
+							<dl class="clearfix">
+								<dd><a href="#" class="red">到货通知</a></dd>
+								<dd>695人评价</dd>
+							</dl>
+						</div>
+					</li>
+					<li>
+						<p class="p-img"><a href="#">
+							<img src="static/images/proL2.jpg" alt="">
+						</a></p>
+						<p class="p-name">
+							<a href="#">荣耀V9 play 全网通标配版（铂光金）</a>
+							<span class="red">双镜头 长续航  5.7英寸屏</span>
+						</p>
+						<p class="p-price">
+							<b>￥599</b>
+						</p>
+						<div class="p-footer">
+							<dl class="clearfix">
+								<dd><a href="#" class="red">到货通知</a></dd>
+								<dd>695人评价</dd>
+							</dl>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- 产品列表结束 -->
+
+	<!-- 分页器开始 -->
+	<div class="pages">
+		<div class="wrap clearfix">
+			<div class="pagesCont clearfix">
+				<!-- 不可点击时添加disabled -->
+				<a class="arrow disabled zPrev" href="#"></a>
+				<a class="arrow disabled prev" href="#"></a>
+				<a href="#">1</a>
+				<b>2</b>
+				<a href="#">3</a>
+				<a class="arrow zNext" href="#"></a>
+				<a class="arrow next" href="#"></a>
+			</div>
+		</div>
+	</div>
+	<!-- 分页器结束 -->
+
+
+
+
+
+
+
+
+	<!-- 底部开始 -->
+	<div class="footer-slogan">
+		<div class="wrap">
+			<ul class="clearfix">
+				<li><a href="#">
+					<i class="i1 icon2"></i>
+					<span>500强企业 品质保证</span>
+				</a></li>
+				<li><a href="#">
+					<i class="i2 icon2"></i>
+					<span>7天退货 15天换货</span>
+				</a></li>
+				<li><a href="#">
+					<i class="i3 icon2"></i>
+					<span>48元起免运费</span>
+				</a></li>
+				<li><a href="#">
+					<i class="i4 icon2"></i>
+					<span>448家维修网点 全国联保</span>
+				</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="footer-link">
+		<div class="wrap clearfix">
+			<div class="le-link fl clearfix">
+				<dl>
+					<dt>购物相关</dt>
+					<dd><a href="#">购物指南</a></dd>
+					<dd><a href="#">配送方式</a></dd>
+					<dd><a href="#">支付方式</a></dd>
+					<dd><a href="#">常见问题</a></dd>
+				</dl>
+				<dl>
+					<dt>保修与退换货</dt>
+					<dd><a href="#">保修政策</a></dd>
+					<dd><a href="#">退换货政策</a></dd>
+					<dd><a href="#">退换货流程</a></dd>
+					<dd><a href="#">保修状态查询</a></dd>
+				</dl>
+				<dl>
+					<dt>维修与技术支持</dt>
+					<dd><a href="#">售后网点</a></dd>
+					<dd><a href="#">预约维修</a></dd>
+					<dd><a href="#">手机寄修</a></dd>
+					<dd><a href="#">维修配件价格查询</a></dd>
+				</dl>
+				<dl>
+					<dt>关于我们</dt>
+					<dd><a href="#">公司介绍</a></dd>
+					<dd><a href="#">华为商城简介</a></dd>
+					<dd><a href="#">华为线下门店</a></dd>
+					<dd><a href="#">荣耀线下门店</a></dd>
+					<dd><a href="#">诚征英才</a></dd>
+				</dl>
+				<dl>
+					<dt>关注我们</dt>
+					<dd><a href="#">新浪微博</a></dd>
+					<dd><a href="#">腾讯微博</a></dd>
+					<dd><a href="#">花粉俱乐部</a></dd>
+				</dl>
+				<dl>
+					<dt>友情链接</dt>
+					<dd><a href="#">华为官网</a></dd>
+					<dd><a href="#">华为消费者业务</a></dd>
+					<dd><a href="#">荣耀官网</a></dd>
+					<dd><a href="#">花粉俱乐部</a></dd>
+					<dd><a href="#">莫塞尔商城</a></dd>
+				</dl>
+			</div>
+			<div class="ri-phone fr">
+				<dl>
+					<dt>400-088-6888</dt>
+					<dd>24小时客服热线（仅收市话费）</dd>
+					<dd><a href="#" class="kefu">
+						<i class="icon2"></i>
+						<span>在线客服</span>
+					</a></dd>
+				</dl>
+			</div>
+		</div>
+	</div>
+	<div class="footer-copy">
+		<div class="wrap clearfix">
+			<div class="le-logo fl">
+				<a href="#"><img src="static/images/flogo.png" alt=""></a>
+			</div>
+			<div class="mi-copy fl">
+				<p><a href="#">隐私政策</a><a href="#">服务协议</a> Copyright © 2012-2017 华为软件技术有限公司 版权所有 保留一切权利</p>
+				<p>公安备案 <a href="#">苏公网安备32011402010009号</a> | <a href="#">苏ICP备17040376号-6</a> | 增值电信业务经营许可证：苏B2-20130048号| </p>
+				<p>网络文化经营许可证：<a href="#">苏网文[2015] 1599-026号</a></p>
+			</div>
+			<div class="ri-link fr">
+				<a href="#"><img src="static/images/flink1.jpg" alt=""></a>
+				<a href="#"><img src="static/images/flink2.png" alt=""></a>
+				<a href="#"><img src="static/images/flink3.png" alt=""></a>
+				<a href="#"><img src="static/images/flink2.png" alt=""></a>
+				<a href="#"><img src="static/images/flink3.png" alt=""></a>
+			</div>
+		</div>
+	</div>
+	<!-- 底部结束 -->
+
+	<div class="hungBar">
+		<a href="#" class="returnTop"><i>返回顶部</i></a>
+		<div class="hungBarCont">
+			<a href="#"><i>帮助中心</i></a>
+			<a href="#"><i>意见反馈</i></a>
+			<a href="#"><i>客服中心</i></a>
+		</div>
+	</div>
+	
+	<script src="static/js/jquery.min.js"></script>
+	<script>
+		//回顶功能
+		$(window).scroll(function(){
+			// console.log($(this).scrollTop());
+			if($(this).scrollTop() > 1300){
+				$(".returnTop").css("display","block");
+			}else {
+				$(".returnTop").css("display","none");
+			}
+		});
+		$(".returnTop").click(function(){
+			$("html,body").animate({
+				scrollTop:0
+			},800);
+		});
+
+		//搜索框
+		$(".search-box .text").click(function(){
+			if($(this).is(":focus")){
+				$(this).parents(".search-box").find(".hot-search").css("display","none");
+			}else {
+				$(this).parents(".search-box").find(".hot-search").css("display","block");
+			}
+		});
+		$(document).click(function(){
+			if($(".search-box .text").is(":focus")){
+				$(".search-box .text").parents(".search-box").find(".hot-search").css("display","none");
+			}else {
+				$(".search-box .text").parents(".search-box").find(".hot-search").css("display","block");
+			}
+		});
+	</script>
+
+</body>
+</html>
